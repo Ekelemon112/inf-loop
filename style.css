@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+}
+.nav{    
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    background-image: url(./loop/infinite-loop-01.jpg);
+}
+
+.bar{
+    display: flex;
+    padding-block: 1rem;
+    margin-inline: 1.5rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.bar h1 a{
+    font-size: 23px;
+    font-family:  sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bar h1 a:hover{
+    color: #37A;
+    transition: 0.4s;
+}
+
+.bar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.bar ul li a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+}
+
+.bar ul li a:hover{
+    background-color: #37A;
+    transition: 0,.1s;
+}
+
+.loop{
+    padding-top: 10rem;
+    text-align: center;
+    color: #fff;
+}
+
+.loop h2{
+    font-size: 80px;
+}
+
+.loop p{
+    font-size: 25px;
+}
+
+.IX{
+    overflow: hidden;
+    padding: 3rem;
+    padding-left: 36rem;
+    font-size: 80px;
+}
+
+.IX i{
+    color: #fff;
+    background-color: rgb(83, 83, 298);
+}
+
+.IX a i:hover{
+    resize: none;  
+    font-size: 90px;
+    background-color: #37A;
+}
+
+.DO{
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.DO h3{
+    line-height: 70px;
+    font-size: 30px;
+    color: #37A;
+}
+
+.DO p{
+    line-height: 30px;
+    font-size: 20px;
+    color: #707070;
+}
+
+.DO p a{
+    text-decoration: none;
+    color: #37A;
+}
+
+.DO p a:hover{
+    color: brown;
+    transition: .5s;
+}
+
+.AA{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.CC{
+    display: flex;
+    gap: 1rem;
+}
+
+.CC i{
+    font-size: 80px;
+    color: #37A;
+}
+
+.CC h4{
+    font-size: 30px;
+    color: #37A;
+    padding-top: 2.5rem;
+}
+
+.BB p{
+    padding-left: 5.6rem;
+    line-height: 30px;
+    font-size: 20px;
+    color: #707070;
+}
+
+.MM{
+    display: flex;
+    gap: 1rem;
+}
+
+.MM i{
+    font-size: 80px;
+    color: #37A;
+}
+
+.MM h5{
+    font-size: 30px;
+    color: #37A;
+    padding-top: 2.5rem;
+}
+
+.AB p{
+    padding-left: 5.6rem;
+    line-height: 30px;
+    font-size: 20px;
+    color: #707070;
+}
+
+.AB p a{
+    text-decoration: none;
+    color: #37A;
+}
+
+.AB p a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+
+.KK{
+    display: flex;
+    padding: 1rem;
+}
+
+.XX{
+    padding: 1rem;
+}
+.ZX{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.ZX i{
+    font-size: 80px;
+    color: #37A;
+}
+
+.ZX h6{
+    font-size: 30px;
+    padding-top: 2.5rem;
+    color: #37A;
+}
+
+.XX p{
+    padding-left: 5rem;
+    width: 500px;
+    line-height:  30px;
+    font-size: 20px;
+    color: #707070;
+}
+
+.NM{
+    padding: 1rem;
+}
+
+.NN{    
+    padding-left: 3rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.NN i{
+    font-size: 80px;
+    color: #37A;
+}
+
+.NN h1{
+    font-size: 30px;
+    padding-top: 2.5rem;
+    color: #37a;
+}
+
+.NM p{
+    padding-left: 8rem;
+    font-size: 20px;
+    color: #707070;
+    line-height: 30px;
+}
+
+.NM p a{
+    text-decoration: none;
+    color: #37A;
+}
+
+.NM p a:hover{
+    color: brown;
+}
+
+.LD{
+    display: flex;
+    padding: 4rem;
+    gap: 28rem;
+}
+
+.LM{
+    padding-left: 8rem;   
+}
+
+.LM a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #37A;
+    padding: 1rem 3rem;
+}
+
+.LM a:hover{
+    background-color: rgb(9, 69, 114);
+}
+
+.DT a{
+    color: #fff;
+    text-decoration: none;
+    background-color: #37A;
+    padding: 1rem 3rem;
+}
+
+.DT a:hover{
+    background-color: rgb(9, 69, 114);
+}
+
+.hero{
+    background-image: url(./loop/infinite-loop-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+}
+
+.text h2{
+    padding: 1rem;
+    font-size: 35px;
+}
+
+.text p{
+    padding: 1rem;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+.love{
+    display: flex;
+    gap: 3rem;
+    color: #fff;
+    padding: 5rem;
+}
+
+
+
+.img1{
+    text-align: center; 
+}
+.img1 img{
+    border-radius: 5rem;
+}
+
+.img1 p{
+    width: 280px;
+    font-size: 16px;
+}
+
+.img2{
+    text-align: center;
+}
+
+.img2 img{
+    border-radius: 5rem;
+}
+
+.img2 p{
+    width: 280px;
+    font-size: 16px;
+}
+
+.img3{
+    text-align: center;
+}
+
+.img3 img{
+    border-radius: 5rem;
+}
+
+.img3 p{
+    width: 280px;
+    font-size: 16px;
+}
+
+.gallery{
+    padding: 4rem;
+}
+
+.GA{
+    padding: 2rem;
+    text-align: center;
+}
+
+.GA h3{
+    font-size: 30px;
+    padding: 2rem;
+    color: #37A;
+}
+
+.ALL{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.contact{
+    padding: 2rem;
+    background-color: #001828;
+}
+
+.MK{
+    text-align: center;
+}
+
+.MK h4{
+    font-size: 30px;
+    padding: 1rem;
+    color: #fff;
+}
+
+.MK p{
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.9;
+}
+
+.GBH{
+    display: flex;
+    gap: 5pc;
+    background-color: #001828;
+}
+
+.form{
+    padding: 3rem;
+    line-height: 60px;
+}
+
+.name{   
+    border: solid #fff;
+    width: 105%;
+    margin: 0 0 20px 0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+}
+
+.name1{
+    width: 105%;
+    height: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    resize:vertical;  
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+}
+
+.form a{
+    padding: 0.5rem 5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(16, 6, 159);
+    text-decoration: none;
+    color: #fff;
+}
+
+.form a:hover{
+    background-color: #37A;
+}
+
+.infor{
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.B1 span{
+    padding: 1rem;
+    font-size: 25px;
+}
+
+.B1 i{
+    font-size: 40px;
+    line-height: 2;
+}
+
+.B1 a{
+    color: #fff;
+    text-align: center;
+}
+
+.B1 a:hover{
+    color: #37A;
+}
+
+.end{
+    padding: 3rem;
+    text-align: center;
+    background-color: #001828;
+    color: #fff;
+}
+
+span a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+span a:hover{
+    color: brown;
+}
